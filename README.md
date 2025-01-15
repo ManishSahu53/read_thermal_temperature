@@ -7,7 +7,11 @@
 3. locate path of exiftool binary
 4. Assign path_exit_tool to it. Usually it is '/usr/local/bin/exiftool'
 
+## How to download Dataset
+https://huggingface.co/datasets/Manishsahu53/Solar-Panel-Thermal-Drone-UAV-Images
+
 ```
+
 path_exit_tool = '/usr/local/bin/exiftool'
 
 fir = flir_image_extractor.FlirImageExtractor(exiftool_path=path_exit_tool)
